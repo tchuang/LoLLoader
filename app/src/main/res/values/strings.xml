@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoLLoader</string>
+
+    <string name="photo_title">Title</string>
+
+    <!-- Progress Dialog -->
+    <string name="updating">Updating&#8230;</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <!-- error messages -->
+    <string name="txt_load_image_error">Can not load the image from Flickr.</string>
+    <string name="txt_disconnect_from_network">This device is disconnected from network, please check network settings.</string>
+</resources>
