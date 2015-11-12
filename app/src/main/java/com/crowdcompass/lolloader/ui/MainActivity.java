@@ -53,9 +53,10 @@ public class MainActivity extends FragmentActivity implements RetainedFragment.O
 			}
 		});
 
-		// Bundle is not designed to carry large objects (such as bitmaps) and the data within it must be serialized then deserialized,
+		// Bundle is not designed to carry large objects (such as bitmaps)
+		// and the data within it must be serialized then deserialized,
 		// which can consume a lot of memory and make the configuration change slow.
-		// So here using RetainedFragment to store the data and also the running AsyncTask.
+		// So here using RetainedFragment to store the data and the running AsyncTask.
 		FragmentManager fm = getSupportFragmentManager();
 		retainedFragment = (RetainedFragment) fm.findFragmentByTag(TAG_RETAINED_FRAGMENT);
 
